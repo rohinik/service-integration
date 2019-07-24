@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 public class SampleAPITest {
 
-  RestTemplate restTemplate = new RestTemplate();
+  private RestTemplate restTemplate = new RestTemplate();
 
   @Test
   public void shouldVerifySampleEndpoint(){
